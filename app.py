@@ -1,6 +1,9 @@
 import streamlit as st
 import os
 
+# 设置页面为宽屏模式
+st.set_page_config(layout="wide")
+
 # 设置页面标题
 st.title("🐌 蜗牛格式阅读器")
 
